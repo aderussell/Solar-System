@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="new Classes">
+      <UniqueIdentifier>{8fce6adb-b196-40d3-a104-ab73682c30f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="new Classes\Meshes">
+      <UniqueIdentifier>{8488e611-b72e-4b45-bc02-a2e5d5cf3b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="new Classes\Camera">
+      <UniqueIdentifier>{e3d59be1-1302-4b5f-ba23-9d8e5d150961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="new Classes\Body">
+      <UniqueIdentifier>{2e43c4f2-3fc9-4885-b2f2-4775dcfe44a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="new Classes\Body\Planets">
+      <UniqueIdentifier>{d6ed7e88-8950-41ea-b9c5-c1f250aab84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="new Classes\Body\Planets\Planets">
+      <UniqueIdentifier>{d467440f-5a35-47da-8a93-1a249f2eee31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="new Classes\Body\Planets\Moons">
+      <UniqueIdentifier>{8d3ef18a-8baf-4ffe-86b0-9ccd3e6efe04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="new Classes\App Controller">
+      <UniqueIdentifier>{b3265cfa-1a62-4c49-a2af-1e3427a3983c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTDevice11.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTDevice9.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTDevice11.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTDevice9.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Solar_System_Common.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Solar_System_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Solar_System_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Basic Thing3D STARTS HERE.cpp" />
+    <ClCompile Include="src\TextureManager.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\String_Additions.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderManager.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjLoader.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshGroup.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cup.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sun.cpp">
+      <Filter>new Classes\Body\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkyBox.cpp">
+      <Filter>new Classes\Body\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sphere.cpp">
+      <Filter>new Classes\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Body.cpp">
+      <Filter>new Classes\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Planet.cpp">
+      <Filter>new Classes\Body\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Earth.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Jupiter.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mars.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mercury.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Moon.cpp">
+      <Filter>new Classes\Body\Planets\Moons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neptune.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Saturn.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Uranus.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Venus.cpp">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexShader.cpp">
+      <Filter>new Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Phobos.cpp">
+      <Filter>new Classes\Body\Planets\Moons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhobosMesh.cpp">
+      <Filter>new Classes\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>new Classes\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SolarSystem.cpp">
+      <Filter>new Classes\App Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectXAppController.cpp">
+      <Filter>new Classes\App Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="SimpleSample.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="Nig.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureManager.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\String_Additions.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderManager.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjLoader.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshGroup.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Material.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cup.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sun.h">
+      <Filter>new Classes\Body\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SkyBox.h">
+      <Filter>new Classes\Body\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sphere.h">
+      <Filter>new Classes\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Body.h">
+      <Filter>new Classes\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Planet.h">
+      <Filter>new Classes\Body\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlanetConstants.h">
+      <Filter>new Classes\Body\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mercury.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Earth.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Jupiter.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mars.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Moon.h">
+      <Filter>new Classes\Body\Planets\Moons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Neptune.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Saturn.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Uranus.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Venus.h">
+      <Filter>new Classes\Body\Planets\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VertexShader.h">
+      <Filter>new Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phobos.h">
+      <Filter>new Classes\Body\Planets\Moons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhobosMesh.h">
+      <Filter>new Classes\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>new Classes\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SolarSystem.h">
+      <Filter>new Classes\App Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectXAppController.h">
+      <Filter>new Classes\App Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
